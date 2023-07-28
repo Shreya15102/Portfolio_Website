@@ -1,0 +1,101 @@
+.experience{
+    background-color: white;
+    overflow: hidden;
+    
+
+    h2{
+        margin-left:45%;
+        margin-top: 10px;
+        font-weight:900;
+        font-size: 35px;
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        
+        width: 49px;
+        height: 48px;
+    }
+    .vertical-timeline{
+        margin:-25px auto;
+        //margin-top: 20px;
+        margin-top: -4px;;
+    }
+    .vertical-timeline-element{
+        margin:1em 0;
+        
+        border-color:#3e497a ;
+
+     
+     h4{
+        color:crimson ;
+     }
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-content{
+        padding-top: 3px;
+        padding-bottom: 2px;
+    }
+    button{
+        background-color: crimson;
+        border-radius: 15px;
+        border-color: white;
+        a{
+            font-weight: 700;
+            text-decoration: none;
+            color:white;
+        }
+    }
+    
+    .vertical-timeline-element-content p{
+        line-height: 1.1;
+    }
+    
+    h4{
+        color:"#3e497a";
+    }
+    p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:480px){
+   .experience{
+    .vertical-timeline-element h4{
+        font-size: 13px;
+    }
+    h2{
+        margin-left: 36%;
+    margin-top: 19px;
+    font-size: 22px;
+    }
+    .vertical-timeline{
+        margin-top: -25px;
+        .vertical-timeline-element:first-child{
+            .vertical-timeline-element-content .vertical-timeline-element-date {
+                padding: -1.2em 0;
+                .info{
+                    .vertical-timeline-element-title {
+                        font-size: 14px;
+                    }
+                    
+                }
+            }
+        
+    
+    
+   }
+//    .vertical-timeline-element:last-child{
+//     info{
+//         .vertical-timeline-element-title {
+//             h3{
+//                 font-size: 14px;
+//             }
+            
+//         }
+        
+//     }
+//    }
+   
+}
+h3.vertical-timeline-element-title{
+    font-size: 14px;
+    
+} }}
